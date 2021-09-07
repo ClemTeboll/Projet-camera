@@ -1,0 +1,10 @@
+*, *::after, *::before {
+
+    box-sizing: border-box;
+}
+
+.main {
+    width: 60vh;
+    min-width: 1000px;
+    margin: auto;
+}
