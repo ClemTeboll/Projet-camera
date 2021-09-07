@@ -25,14 +25,17 @@ h1 {
     border: 1px solid black;
 }
 
-.button {
+.snap {
     width: auto;
     height: auto;
     border: 1px solid black;
     background-color: darkgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.button__photo {
+.snap-button {
     height: 50px;
     width: 50px;
     border-radius: 50px;
@@ -41,11 +44,11 @@ h1 {
     border: 1px solid black;
 }
 
-.button__photo:hover {
+.snap-button:hover {
     background-color: aliceblue;
 }
 
-.button__photo:active {
+.snap-button:active {
     background-color: red;
 }
 
@@ -56,4 +59,13 @@ h1 {
     margin: auto;
     width: 600px;
     height: auto;
+}
+
+i {
+    font-size: 3em;
+    opacity: 50%;
+}
+
+i:hover {
+    opacity: 100%;
 }

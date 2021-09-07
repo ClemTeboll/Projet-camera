@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1e95ab4952.js" crossorigin="anonymous"></script>
     <title>Projet caméra</title>
 </head>
 <body>
@@ -16,31 +17,34 @@
         <h2>Appareil photo</h2>
 
         <div id="camera">
-            <div></div>
-            <div>
-                <button>Clic caméra</button>
+            <div class="camera-screen">
+
+                <video id="video"></video>
+
+            </div>
+            <div class="snap">
+                <button class="snap-button"></button>
             </div>
         </div>
 
         <h2>Diaporama</h2>
 
-        <div>
+        <div class="slideshow">
         
-            <div>Flèche gauche</div>
+            <i class="fas fa-arrow-alt-circle-left"></i>
         
             <figure>
                 <img src="" alt=""/>
                 <figcaption>Retrouvez vos photos ici !</figcaption>
             </figure>
 
-            <div>Flèche droite</div>
+            <i class="fas fa-arrow-alt-circle-right"></i>
 
         </div>
 
     </div>
 
-    
-
+    <script async src="./main.js"></script>
 
 </body>
 </html>
