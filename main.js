@@ -22,19 +22,3 @@ const startup = () => {
 }
 
 window.addEventListener('load', startup, false);
-
-
-
-/*
-    MÉTHODE 2
-*/
-
-// let constraintObj = {
-//     audio: false,
-//     video: true
-// }
-
-// navigator.mediaDevices.getUserMedia(constraintObj)
-//     .then((mediaStreamObj) => {
-//         let video = document.querySelector('#video');
-//     })
