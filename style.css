@@ -19,15 +19,7 @@ h1 {
     justify-content: center;
 }
 
-.camera-screen {
-    width: 100%;
-    height: auto;
-    border: 1px solid black;
-}
-
-.snap {
-    width: auto;
-    height: auto;
+#snap {
     border: 1px solid black;
     background-color: darkgrey;
     display: flex;
@@ -35,7 +27,7 @@ h1 {
     align-items: center;
 }
 
-.snap-button {
+#snap-button {
     height: 50px;
     width: 50px;
     border-radius: 50px;
@@ -44,11 +36,11 @@ h1 {
     border: 1px solid black;
 }
 
-.snap-button:hover {
+#snap-button:hover {
     background-color: aliceblue;
 }
 
-.snap-button:active {
+#snap-button:active {
     background-color: red;
 }
 
@@ -68,4 +60,8 @@ i {
 
 i:hover {
     opacity: 100%;
+}
+
+canvas {
+    display: none;
 }
